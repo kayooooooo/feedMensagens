@@ -1,0 +1,163 @@
+<style>
+
+ul.rcentside{
+color:black;
+font-size:11px; /*TAMANHO DA FONTE DOS TÍTULOS*/
+}
+ul.rcentside,ul.rcentside li{
+color:black;
+position:relative;
+ }
+ul.rcentside2{
+  grid-template-columns: repeat( auto-fit, minmax(290px,1fr));
+    grid-gap: 5px;
+width:100%; 
+height:auto; 
+    display: grid;
+    margin: auto;
+ }
+ul.rcentside2 li{
+color:black;
+position:relative;
+width:auto;
+display:block;
+ }
+ul.rcentside2 li:nth-child(1),ul.rcentside2 li:nth-child(2),ul.rcentside2 li:nth-child(3){
+display:;
+}
+  
+ul.rcentside img{
+
+}
+  
+  .item-post .post-body img {
+
+   opacity: inherit !important;
+}
+  
+ul.rcentside li:nth-child(1){
+
+ }
+ul.rcentside li:nth-child(2){
+width:;
+ }
+ul.rcentside li:nth-child(3){
+width:;
+ }
+ul.rcentside li:nth-child(4){
+width:;
+
+ }
+ul.rcentside .overlayx,ul.rcentside li{
+ }
+ul.rcentside .overlayx{
+position:relative;
+
+ }
+ul.rcentside .overlayx,ul.rcentside img{
+}
+  
+ul.rcentside li:nth-child(1).overlayx{
+background-position:center center;
+ }
+ul.rcentside .overlayx:hover{
+ }
+.textPx{
+display: block;
+    position: relative;
+    width: fit-content;
+    font-family: 'Merriweather';
+    color:black;
+    font-weight: 600 !important;
+    margin: auto !important;
+    padding: 10px;
+    line-height: 1.4em !important;
+    background: none;
+    margin-bottom: 1px;
+text-align: center;
+}
+  
+  .textP:hover {
+    color:#3f51b5;
+  }
+  
+.overlayx1 {
+    position: relative;
+    margin-bottom: 1px;
+    padding-top: 5px;
+    padding: ;
+    border-radius: ;
+  }
+  
+ul.rcentside2 li:hover h4{
+color:goldenrod;
+}
+
+ul.rcentside li:nth-child(1)h4,ul.rcentside li:nth-child(4)h4{
+font-size:150%;
+ }
+ .label_text1{
+display: none;
+position:relative;
+bottom:0;
+left:20px;
+z-index:2;
+color:#ffffff; /*COR DA DATA E AUTOR*/
+font-size:90%; /*TAMANHO DA FONTE AUTOR E DATA*/
+}
+   /*ul.rcentside li:hover .label_text{
+bottom:20px;
+opacity:1;
+}*/
+ul.rcentside li:nth-child(2).autname,ul.rcentside li:nth-child(3).autname{
+display:block;
+ }
+.buttons{
+display: none;
+margin:5px 0 0;
+ }
+.buttons a{
+display:inline-block;
+text-indent:-9999px;
+width:15px;
+height:25px;
+position:relative;
+ }
+/*.buttons a::before{
+content:"";
+width:0;
+height:0;
+border-width:8px 7px;
+border-style:solid;
+border-color:transparent #535353 transparent transparent; COR DOS BOTÕES
+position:absolute;
+top:50%;
+margin-top:-8px;
+margin-left:-10px;
+left:50%;
+ }
+.buttons a.nextx::before{
+border-color:transparent transparent transparent #535353; COR DOS BOTÕES MANTENHA IGUAL ACIMA
+margin-left:-3px;*/
+ }
+   
+.frextra {
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+}
+   
+   .item .entry-content ul, .static_page .entry-content ul {
+    position: relative;
+    display: grid;
+    margin: auto;
+  }
+   
+.random1 {
+text-align: center;
+    margin: auto;
+    display: block;
+    border-radius: ;
+}
+   
+</style>
